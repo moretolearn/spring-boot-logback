@@ -1,0 +1,19 @@
+2024-12-15T17:36:39.953+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] com.ram.SpringBootLogbackApplication     : Starting SpringBootLogbackApplication using Java 21.0.5 with PID 12968 (D:\Mohan\Java\JavaWork\.metadata\spring-boot-logback\target\classes started by Tejaswani in D:\Mohan\Java\JavaWork\.metadata\spring-boot-logback)
+2024-12-15T17:36:39.953+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] com.ram.SpringBootLogbackApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-15T17:36:40.074+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-15T17:36:40.076+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-15T17:36:40.076+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-15T17:36:40.087+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-15T17:36:40.087+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 133 ms
+2024-12-15T17:36:40.141+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-15T17:36:40.149+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-15T17:36:40.152+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] com.ram.SpringBootLogbackApplication     : Started SpringBootLogbackApplication in 0.224 seconds (process running for 571.952)
+2024-12-15T17:36:40.156+05:30  INFO 12968 --- [spring-boot-logback] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-15T17:36:52.578+05:30  INFO 12968 --- [spring-boot-logback] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-15T17:36:52.579+05:30  INFO 12968 --- [spring-boot-logback] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-15T17:36:52.580+05:30  INFO 12968 --- [spring-boot-logback] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-15T17:36:52.602+05:30  INFO 12968 --- [spring-boot-logback] [http-nio-8080-exec-1] com.ram.controller.LogbackController     : Info level - Hello Logback
+2024-12-15T17:36:52.602+05:30 ERROR 12968 --- [spring-boot-logback] [http-nio-8080-exec-1] com.ram.controller.LogbackController     : Error level - Hello Logback hello
+2024-12-15T18:28:27.686+05:30  INFO 12968 --- [spring-boot-logback] [RMI TCP Connection(89)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-12-15T18:28:27.706+05:30  INFO 12968 --- [spring-boot-logback] [RMI TCP Connection(89)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-15T18:28:27.711+05:30  INFO 12968 --- [spring-boot-logback] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
